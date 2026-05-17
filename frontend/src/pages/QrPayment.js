@@ -40,7 +40,7 @@ export default function QrPayment() {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, alignItems: 'start' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 24, alignItems: 'start' }}>
         {/* Form */}
         <div className="card">
           <h3 style={{ marginBottom: 20, fontSize: 16 }}>⚙️ Configure QR Code</h3>

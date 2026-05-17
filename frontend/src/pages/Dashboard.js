@@ -74,7 +74,7 @@ export default function Dashboard() {
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 20 }}>
             {/* People who owe you */}
             <div className="card">
               <h3 style={{ marginBottom: 16, color: 'var(--success)', fontSize: 15 }}>
